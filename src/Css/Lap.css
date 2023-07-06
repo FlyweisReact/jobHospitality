@@ -279,7 +279,7 @@
   margin-top: 20px;
 }
 .Service_Slider_Container .Service_Slider .Main {
-    width: 421px  !important;
+  width: 421px !important;
   height: 506px !important;
   position: relative;
   display: block !important;
@@ -293,7 +293,137 @@
   right: 0;
   z-index: -1;
 }
-
 .Service_Slider_Container .slick-arrow {
-  display: none  !important;
+  display: none !important;
+}
+
+.Service_Slider_Container .Service_Slider .Main .head {
+  color: #fff;
+  text-align: center;
+  font-size: 36px;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.Service_Slider_Container .Service_Slider .Main button {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-radius: 6px;
+  border: 1px solid #fff;
+  background: #fff;
+  width: 148.49px;
+  height: 37.865px;
+  color: #000;
+  text-align: center;
+  font-size: 15px;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.375px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  justify-content: center;
+}
+
+/* Home Page Review Slider */
+.Review_Slider_Container {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.Review_Slider_Container .Review_Slider .Main {
+  width: 357px !important;
+  height: 466px !important;
+  position: relative;
+  display: block !important;
+  margin: auto;
+  background: #fff;
+  box-shadow: 0px 20px 40px 10px rgba(159, 159, 159, 0.15),
+    0px -10px 50px 0px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.Review_Slider_Container .slick-arrow {
+  display: none !important;
+}
+.Review_Slider_Container .Review_Slider .Main .User_Profile {
+  display: flex;
+  justify-content: space-between;
+  max-width: 90%;
+  gap: 10px;
+  align-items: center;
+}
+
+.Review_Slider_Container .Review_Slider .Main .User_Profile img {
+  width: 73px;
+  height: 73px;
+  border-radius: 100%;
+}
+.Review_Slider_Container .Review_Slider .Main .User_Profile p {
+  margin: 0;
+}
+
+.Review_Slider_Container .Review_Slider .Main .User_Profile div .head {
+  color: #000;
+  font-size: 22px;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 39px;
+}
+.Review_Slider_Container .Review_Slider .Main .User_Profile div .desc {
+  color: #9c9c9c;
+  font-size: 15px;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 39px;
+}
+
+.Review_Slider_Container .Review_Slider .Main .Reviews {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.Review_Slider_Container .Review_Slider .Main .Reviews div {
+  display: flex;
+  gap: 5px;
+}
+.Review_Slider_Container .Review_Slider .Main .Reviews div i {
+  color: #ffc107;
+  font-size: 23px;
+}
+
+.Review_Slider_Container .Review_Slider .Main .Reviews p {
+  margin: 0;
+  color: #9c9c9c;
+  font-size: 15px;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 39px;
+}
+.Review_Slider_Container .Review_Slider .Main .content {
+  text-align: left;
+  margin-top: 10px;
+}
+.Review_Slider_Container .Review_Slider .Main .content p {
+  color: #000;
+  font-size: 17px;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
 }

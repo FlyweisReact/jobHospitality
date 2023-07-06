@@ -56,6 +56,8 @@ const ServiceSlider = () => {
               LEARN MORE <i className="fa-solid fa-caret-right"></i>
             </button>
           </div>
+
+          
           <div className="Main">
             <img src="./Image/5.png" alt="" />
             <p className="head">Waiter & Waitress</p>
