@@ -1879,66 +1879,29 @@
 .Community_Page .Find_work_contact_form {
   width: 100%;
   max-width: 100%;
-  justify-content: space-evenly;  
-  height: 100%;
-  align-items: center;
+  justify-content: space-evenly;
+
+
 }
 
 .Community_Page .Find_work_contact_form .left_container {
-  width: 40%;
+  width: 50%;
   background-image: none;
   position: relative;
 }
 .Community_Page .Find_work_contact_form .left_container .content {
   position: relative;
-  transform: none;
+  transform:none;
   top: 0;
   left: 0;
   width: 90%;
 }
-.Community_Page .Find_work_contact_form .left_container .content h5 {
+.Community_Page .Find_work_contact_form .left_container .content h5{
   color: #000;
   text-align: left;
-  font-size: 30px;
 }
-.Community_Page .Find_work_contact_form .left_container .content p {
+.Community_Page .Find_work_contact_form .left_container .content p{
   color: #000;
   text-align: left;
   max-width: 100%;
-}
-.Community_Page .Find_work_contact_form .right_container {
-  width: 30%;
-}
-
-.Community_Page .Find_work_contact_form .right_container .content {
-  text-align: center;
-}
-.Community_Page .Find_work_contact_form .right_container .content h5 {
-  color: #1d1d1d;
-  text-align: center;
-  font-family: Plus Jakarta Sans;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 600;
-  margin: 0;
-}
-.Community_Page .Find_work_contact_form .right_container .content p{
-  color: #777;
-font-family: Plus Jakarta Sans;
-font-size: 17px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px;
-}
-.Community_Page .Find_work_contact_form .right_container .contact-query-form form .submit-btn {
-  width: 80%;
-}
-.Community_Page .Find_work_contact_form .right_container .contact-query-form form .Whatsapp_Button {
-  width: 80%;
-}
-.Community_Page .contact-faq .accordion .accordion-item .accordion-header button  {
-  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.20);
-}
-.Community_Page .contact-faq .accordion .accordion-body {
-  background-color: #fff;
 }

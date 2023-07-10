@@ -32,9 +32,7 @@ const AboutUs = () => {
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
           </p>
-          <Link to="/community">
-            <button>Learn More</button>
-          </Link>
+          <button>Learn More</button>
         </div>
         <div className="Item">
           <div className="upper third">
@@ -44,9 +42,7 @@ const AboutUs = () => {
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
           </p>
-          <Link to="/community">
-            <button>Learn More</button>
-          </Link>
+          <button>Learn More</button>
         </div>
       </div>
     </div>

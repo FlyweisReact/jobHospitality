@@ -28,7 +28,7 @@ const App = () => {
             <Route path='/find-work' element={<FindWork />} />
             <Route path='/staff' element={<Staff />} />
             <Route path='/courses' element={<Courses />} />
-            <Route path='/community' element={<Community />} />
+            <Route path='community' element={<Community />} />
         </Routes>
       </BrowserRouter>
     </>
