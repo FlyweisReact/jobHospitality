@@ -1684,7 +1684,7 @@
   gap: 2px;
 }
 .Training_Course .contact-us-overflow-main .Content .Three_Images img {
-  width: 30%;
+  width: auto;
   height: auto;
 }
 .Training_Course .contact-us-overflow-main .Content .desc {
@@ -1721,22 +1721,22 @@
 .Staff_Desc {
   max-width: 1400px;
   margin: auto;
-  margin-top: 3%;
+  margin-top: 2%;
 }
 
-.Staff_Desc h5 {
+.Staff_Desc h5{
   color: #000;
-  font-family: Plus Jakarta Sans;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 54px;
+font-family: Plus Jakarta Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 54px;
 }
-.Staff_Desc p {
-  color: #1d1d1d;
-  font-family: Poppins;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+.Staff_Desc p{
+  color: #1D1D1D;
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }

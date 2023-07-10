@@ -22,12 +22,13 @@ const Banner = () => {
             </button>
           </Link>
 
-          <Link to="/staff">
-            <button>
-              {" "}
-              <img src="./Image/1.svg" alt="" /> Find Talented Staff
-            </button>
+          <Link to='/staff'>
+            
           </Link>
+          <button>
+            {" "}
+            <img src="./Image/1.svg" alt="" /> Find Talented Staff
+          </button>
         </div>
         <button className="Bottom_Button">
           {" "}

@@ -12,7 +12,6 @@ import EventBooking from './Pages/EventBooking'
 import ContactUs from './Pages/ContactUs'
 import SignIn from './Pages/SignIn'
 import FindWork from './Pages/FindWork'
-import Staff from './Pages/Staff'
 const App = () => {
   return (
     <>
@@ -24,7 +23,7 @@ const App = () => {
             <Route path='/contact-us' element={<ContactUs />} />
             <Route path='/sign-in' element={<SignIn />} />
             <Route path='/find-work' element={<FindWork />} />
-            <Route path='/staff' element={<Staff />} />
+            <Route path='/staff' ele
         </Routes>
       </BrowserRouter>
     </>

@@ -1663,80 +1663,15 @@
   background-image: url("../../public/Image/39.png");
 }
 
+
+
 /* Staff */
-.Training_Course .Event_Booking-Banner .upper {
-  background: #f5a302;
+.Training_Course .Event_Booking-Banner .upper{
+  background: #F5A302; 
 }
-.Training_Course .contact-us-overflow-main {
+.Training_Course .contact-us-overflow-main{
   background-color: #fff;
 }
 .Training_Course .contact-us-overflow-main .Content {
-  box-shadow: 0px 20px 40px 4px rgba(0, 0, 0, 0.15);
-  padding: 0;
-  padding-bottom: 20px;
-  max-width: 1400px;
-  margin: auto;
-}
-.Training_Course .contact-us-overflow-main .Content .Three_Images {
-  display: flex;
-  justify-content: center;
-  max-height: 300px;
-  gap: 2px;
-}
-.Training_Course .contact-us-overflow-main .Content .Three_Images img {
-  width: 30%;
-  height: auto;
-}
-.Training_Course .contact-us-overflow-main .Content .desc {
-  color: #1d1d1d;
-  text-align: center;
-  font-family: Poppins;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  padding: 20px;
-  max-width: 1100px;
-  margin: auto;
-}
-.Training_Course .contact-us-overflow-main .Content .Learn_More_Button {
-  border-radius: 10px;
-  background: #f5a302;
-  box-shadow: 0px 0px 3px 0px rgba(60, 72, 88, 0.15);
-  max-width: 400px;
-  width: 100%;
-  padding: 10px;
-  color: #fff;
-  text-align: center;
-  font-family: Plus Jakarta Sans;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  display: block;
-  margin: auto;
-  border: 1px solid #f5a302;
-}
-
-.Staff_Desc {
-  max-width: 1400px;
-  margin: auto;
-  margin-top: 3%;
-}
-
-.Staff_Desc h5 {
-  color: #000;
-  font-family: Plus Jakarta Sans;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 54px;
-}
-.Staff_Desc p {
-  color: #1d1d1d;
-  font-family: Poppins;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  
 }
