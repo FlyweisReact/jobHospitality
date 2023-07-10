@@ -13,7 +13,6 @@ import ContactUs from './Pages/ContactUs'
 import SignIn from './Pages/SignIn'
 import FindWork from './Pages/FindWork'
 import Staff from './Pages/Staff'
-import Courses from './Pages/Courses'
 const App = () => {
   return (
     <>
@@ -26,7 +25,7 @@ const App = () => {
             <Route path='/sign-in' element={<SignIn />} />
             <Route path='/find-work' element={<FindWork />} />
             <Route path='/staff' element={<Staff />} />
-            <Route path='/courses' element={<Courses />} />
+            <Route path='/courses' element={<C}
         </Routes>
       </BrowserRouter>
     </>

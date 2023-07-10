@@ -29,12 +29,10 @@ const Banner = () => {
             </button>
           </Link>
         </div>
-        <Link to="/courses">
-          <button className="Bottom_Button">
-            {" "}
-            <img src="./Image/1.svg" alt="" /> School for Bartending...JOIN NOW
-          </button>
+        <Link to='/courses' >
+
         </Link>
+     
       </div>
     </div>
   );

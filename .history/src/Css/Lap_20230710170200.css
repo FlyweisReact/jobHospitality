@@ -1749,7 +1749,7 @@
 }
 .courses_overflow .contact-us-overflow-main .Content {
   background-color: #f5a302;
-  border: 1px solid #f5a302;
+  border: 1px solid black;
 }
 .courses_overflow .contact-us-overflow-main .Content .Main h5 {
   color: #fff;
@@ -1815,13 +1815,14 @@
   color: #fff;
 }
 
-.courses_overflow .About-Us_Newsletter {
-  justify-content: space-evenly;
+
+.courses_overflow .About-Us_Newsletter{
+    justify-content: space-evenly ;
 }
-.courses_overflow .About-Us_Newsletter .left {
+.courses_overflow .About-Us_Newsletter .left{
   width: 30%;
 }
-.courses_overflow .About-Us_Newsletter .right {
+.courses_overflow .About-Us_Newsletter .right{
   width: 60%;
 }
 .courses_overflow .About-Us_Newsletter .right .content {
@@ -1830,14 +1831,7 @@
 .courses_overflow .About-Us_Newsletter .right .content h5 {
   text-align: center;
 }
-.courses_overflow
-  .About-Us_Newsletter
-  .right
-  .content
-  form
-  .Two_Inputs
-  div
-  textarea {
+.courses_overflow .About-Us_Newsletter .right .content form .Two_Inputs div textarea {
   border-radius: 6px;
   border: 1px solid #fff;
   background: #fff;
@@ -1850,20 +1844,4 @@
 }
 .courses_overflow .About-Us_Newsletter .right .content .Policy {
   text-align: center;
-}
-.courses_overflow .contact-us-overflow-main .Center_Heading h5 {
-  color: #fff;
-}
-.courses_overflow .contact-us-overflow-main .Center_Heading .desc {
-  width: 100%;
-  max-width: 90%;
-  color: #fff;
-}
-.courses_overflow .contact-us-overflow-main .Full_Image {
-  width: 100%;
-}
-.courses_overflow .contact-us-overflow-main .Full_Image img {
-  width: 100%;
-  max-height: 500px;
-  margin-top: 5%;
 }
