@@ -1,6 +1,6 @@
 /** @format */
 
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "../Component/Navbar/Navbar";
 import HeadingCont from "../Component/Partial/heading-cont";
 import AboutUs from "../Component/Shared/about-us";
@@ -14,6 +14,9 @@ import Footer from "../Component/Footer/Footer";
 import LinkSection from "../Component/Partial/LinkSection";
 
 const HomePage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Navbar />
@@ -42,7 +45,7 @@ const HomePage = () => {
       <HeadingCont
         title={"Staff Reviews"}
         content={
-          "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed"
+          "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed"
         }
       />
       <ReviewSlider />
