@@ -2364,7 +2364,6 @@
 .Find_Work_Modal {
   background-color: #f5a302;
   padding: 50px !important;
-  padding-top: 20px !important;
 }
 .Find_Work_Modal h6 {
   color: #fff;
@@ -2393,12 +2392,8 @@
   margin-top: 30px;
   justify-content: space-evenly;
 }
-.Find_Work_Modal .two-btn a {
-  width: 40%;
-  text-decoration: none;
-}
 .Find_Work_Modal .two-btn button {
-  width: 100%;
+  width: 40%;
   border: 1px solid #fff;
   padding: 10px;
   color: #fff;
@@ -2409,12 +2404,4 @@
   line-height: normal;
   background-color: transparent;
   text-transform: uppercase;
-}
-.Find_Work_Modal i {
-  display: flex;
-  justify-content: flex-end;
-  color: #fff;
-  font-size: 35px;
-  cursor: pointer;
-
 }

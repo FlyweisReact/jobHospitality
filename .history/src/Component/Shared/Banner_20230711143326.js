@@ -19,12 +19,13 @@ const Banner = () => {
             we've helped recruit excellent applicants over the years.
           </p>
           <div className="two_button">
-         
+            {/* <Link to="/find-work"> */}
             <button onClick={() => setModalShow(true)}>
               {" "}
               <img src="./Image/1.svg" alt="" /> Find Work
             </button>
-         
+            {/* </Link> */}
+
             <Link to="/staff">
               <button>
                 {" "}

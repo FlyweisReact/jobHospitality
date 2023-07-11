@@ -2363,8 +2363,8 @@
 /* Find Work Modal */
 .Find_Work_Modal {
   background-color: #f5a302;
+  padding-top: ;
   padding: 50px !important;
-  padding-top: 20px !important;
 }
 .Find_Work_Modal h6 {
   color: #fff;

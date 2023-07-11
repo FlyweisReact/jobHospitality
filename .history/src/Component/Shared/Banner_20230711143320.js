@@ -7,7 +7,7 @@ const Banner = () => {
   const [modalShow, setModalShow] = useState();
   return (
     <>
-      <FindWorkModal show={modalShow} onHide={() => setModalShow(false)} />
+    <FindWorkModal show={modalShow} onHide={() => setModalShow(false)} />
       <div className="Banner">
         <div className="content">
           <h2>
@@ -19,12 +19,13 @@ const Banner = () => {
             we've helped recruit excellent applicants over the years.
           </p>
           <div className="two_button">
-         
-            <button onClick={() => setModalShow(true)}>
-              {" "}
-              <img src="./Image/1.svg" alt="" /> Find Work
-            </button>
-         
+            {/* <Link to="/find-work"> */}
+              <button onClick={() => set}>
+                {" "}
+                <img src="./Image/1.svg" alt="" /> Find Work
+              </button>
+            {/* </Link> */}
+
             <Link to="/staff">
               <button>
                 {" "}

@@ -24,7 +24,8 @@ const Banner = () => {
               {" "}
               <img src="./Image/1.svg" alt="" /> Find Work
             </button>
-         
+            {/* </Link> */}
+
             <Link to="/staff">
               <button>
                 {" "}
