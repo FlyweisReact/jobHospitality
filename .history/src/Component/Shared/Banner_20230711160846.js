@@ -5,12 +5,11 @@ import { FindWorkModal } from "../Modals/FindWorkModal";
 import { FindStaffModal  } from "../Modals/FindStaffModal";
 
 const Banner = () => {
-  const [modalShow, setModalShow] = useState(false);
-  const [ showModal , setShowModal ] = useState(false)
+  const [modalShow, setModalShow] = useState();
+  const [ showModal , setShowModal ] = useState
   return (
     <>
       <FindWorkModal show={modalShow} onHide={() => setModalShow(false)} />
-      <FindStaffModal show={showModal} onHide={() => setShowModal(false)} />
       <div className="Banner">
         <div className="content">
           <h2>
@@ -28,13 +27,13 @@ const Banner = () => {
               <img src="./Image/1.svg" alt="" /> Find Work
             </button>
          
-              <button onClick={() => setShowModal(true)}>
+            <Link to="/staff">
+              <button>
                 {" "}
                 <img src="./Image/1.svg" alt="" /> Find Talented Staff
               </button>
+            </Link>
           </div>
-
-
           <Link to="/courses">
             <button className="Bottom_Button">
               {" "}

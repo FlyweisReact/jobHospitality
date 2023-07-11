@@ -28,10 +28,12 @@ const Banner = () => {
               <img src="./Image/1.svg" alt="" /> Find Work
             </button>
          
+            {/* <Link to="/staff"> */}
               <button onClick={() => setShowModal(true)}>
                 {" "}
                 <img src="./Image/1.svg" alt="" /> Find Talented Staff
               </button>
+            {/* </Link> */}
           </div>
 
 
