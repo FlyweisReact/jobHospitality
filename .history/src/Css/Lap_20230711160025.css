@@ -2497,14 +2497,6 @@
   .contact-us-overflow-main
   .Content
   .contact-query-form
-  form a {
-    text-decoration: none;
-  }
-.Staff-Login-Container
-  .Training_Course
-  .contact-us-overflow-main
-  .Content
-  .contact-query-form
   form
   .submit-btn {
   width: 80%;
@@ -2545,49 +2537,36 @@
   .Content
   .contact-query-form
   form
-  .forget-password
-  span {
-  text-decoration: underline;
-  cursor: pointer;
-}
+  .forget-password span{
+    text-decoration: underline;
+  }
 
-.Staff-Login-Container
+
+  .Staff-Login-Container
   .Training_Course
   .contact-us-overflow-main
   .Content
   .contact-query-form
-  form
-  .empty-one {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-.Staff-Login-Container
+  form .empty-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .Staff-Login-Container
   .Training_Course
   .contact-us-overflow-main
   .Content
   .contact-query-form
-  form
-  .empty-one
-  .empty {
-  border: 1px solid #fff;
-  width: 35%;
-  height: 2px;
-}
-.Staff-Login-Container
+  form .empty-one .empty{
+    border: 1px solid #fff;
+    width: 35%;
+    height: 2px;
+  }
+  .Staff-Login-Container
   .Training_Course
   .contact-us-overflow-main
   .Content
   .contact-query-form
-  form
-  .empty-one
-  p {
-  color: #fff;
-  text-align: center;
-  font-family: Plus Jakarta Sans;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 54px;
-  margin: 0;
-}
+  form .empty-one  p{
+    
+  }

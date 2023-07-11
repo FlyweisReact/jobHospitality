@@ -15,7 +15,6 @@ import FindWork from './Pages/FindWork'
 import Staff from './Pages/Staff'
 import Courses from './Pages/Courses'
 import Community from './Pages/Community'
-import StaffLoginIn from './Pages/StaffLoginIn'
 const App = () => {
   return (
     <>
@@ -30,7 +29,7 @@ const App = () => {
             <Route path='/staff' element={<Staff />} />
             <Route path='/courses' element={<Courses />} />
             <Route path='/community' element={<Community />} />
-            <Route path='/staff-logIn' element={<StaffLoginIn />} />
+            <Route path='/staff'
         </Routes>
       </BrowserRouter>
     </>

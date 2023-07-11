@@ -2497,9 +2497,8 @@
   .contact-us-overflow-main
   .Content
   .contact-query-form
-  form a {
-    text-decoration: none;
-  }
+  form
+  .submit-btn
 .Staff-Login-Container
   .Training_Course
   .contact-us-overflow-main
