@@ -22,15 +22,25 @@ import ClientLoginIn from "./Pages/client-logIn";
 // Css
 import "./Css/Navbar.css";
 import "./Css/Lap.css";
-
-
 const App = () => {
+
+  const Stack = ({ children }) => {
+    return (
+      <div className="stack">
+        {children}
+      </div>
+    );
+  };
+  
+
+
   return (
     <>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/about-us" element={<AboutUs />} />
+          {/* <Route path="/about-us" element={<AboutUs />} /> */}
+          <Route path="/about-us" element={<Stack><AboutUs /></Stack>} />
           <Route path="/event-booking" element={<EventBooking />} />
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/sign-in" element={<SignIn />} />

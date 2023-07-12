@@ -22,9 +22,18 @@ import ClientLoginIn from "./Pages/client-logIn";
 // Css
 import "./Css/Navbar.css";
 import "./Css/Lap.css";
-
-
 const App = () => {
+
+  const Stack = ({ children }) => {
+    return (
+      <div className="stack">
+        {children}
+      </div>
+    );
+  };
+  
+
+
   return (
     <>
       <BrowserRouter>

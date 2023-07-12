@@ -22,15 +22,17 @@ import ClientLoginIn from "./Pages/client-logIn";
 // Css
 import "./Css/Navbar.css";
 import "./Css/Lap.css";
-
-
 const App = () => {
+
+  
+
+
   return (
     <>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/about-us" element={<AboutUs />} />
+          {/* <Route path="/about-us" element={<AboutUs />} /> */}
           <Route path="/event-booking" element={<EventBooking />} />
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/sign-in" element={<SignIn />} />
