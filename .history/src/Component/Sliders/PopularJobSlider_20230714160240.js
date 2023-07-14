@@ -70,6 +70,7 @@ const PopularJobSlider = () => {
               className="content-div"
               initial={{ opacity: 0, scale: 0.7, rotate: 180 }}
               whileHover={{ opacity: 1, scale: 1, rotate: 360 }}
+              
               whileFocus={{ opacity: 1, scale: 1, rotate: 360 }}
               whileTap={{ opacity: 0.8, scale: 0.9, rotate: 360 }}
               transition={{ duration: 0.5 }}
@@ -94,9 +95,10 @@ const PopularJobSlider = () => {
             <p className="desc hideOnHover">Earn upto 15 - 20 £ per hour</p>
 
             <motion.div
-              className="content-div"
+               className="content-div"
               initial={{ opacity: 0, scale: 0.7, rotate: 180 }}
               whileHover={{ opacity: 1, scale: 1, rotate: 360 }}
+              
               whileFocus={{ opacity: 1, scale: 1, rotate: 360 }}
               whileTap={{ opacity: 0.8, scale: 0.9, rotate: 360 }}
               transition={{ duration: 0.5 }}
@@ -119,9 +121,10 @@ const PopularJobSlider = () => {
             <p className="head hideOnHover">Bartender</p>
             <p className="desc hideOnHover">Earn upto 20 - 25 £ per hour</p>
             <motion.div
-              className="content-div"
+               className="content-div"
               initial={{ opacity: 0, scale: 0.7, rotate: 180 }}
               whileHover={{ opacity: 1, scale: 1, rotate: 360 }}
+              
               whileFocus={{ opacity: 1, scale: 1, rotate: 360 }}
               whileTap={{ opacity: 0.8, scale: 0.9, rotate: 360 }}
               transition={{ duration: 0.5 }}
@@ -146,9 +149,10 @@ const PopularJobSlider = () => {
             <p className="desc hideOnHover">Earn upto 12 - 15 £ per hour</p>
 
             <motion.div
-              className="content-div"
+               className="content-div"
               initial={{ opacity: 0, scale: 0.7, rotate: 180 }}
               whileHover={{ opacity: 1, scale: 1, rotate: 360 }}
+              
               whileFocus={{ opacity: 1, scale: 1, rotate: 360 }}
               whileTap={{ opacity: 0.8, scale: 0.9, rotate: 360 }}
               transition={{ duration: 0.5 }}
@@ -173,9 +177,10 @@ const PopularJobSlider = () => {
             <p className="desc hideOnHover">Earn upto 15 - 20 £ per hour</p>
 
             <motion.div
-              className="content-div"
+               className="content-div"
               initial={{ opacity: 0, scale: 0.7, rotate: 180 }}
               whileHover={{ opacity: 1, scale: 1, rotate: 360 }}
+              
               whileFocus={{ opacity: 1, scale: 1, rotate: 360 }}
               whileTap={{ opacity: 0.8, scale: 0.9, rotate: 360 }}
               transition={{ duration: 0.5 }}
@@ -198,9 +203,10 @@ const PopularJobSlider = () => {
             <p className="head hideOnHover">Bartender</p>
             <p className="desc hideOnHover">Earn upto 20 - 25 £ per hour</p>
             <motion.div
-              className="content-div"
+               className="content-div"
               initial={{ opacity: 0, scale: 0.7, rotate: 180 }}
               whileHover={{ opacity: 1, scale: 1, rotate: 360 }}
+              
               whileFocus={{ opacity: 1, scale: 1, rotate: 360 }}
               whileTap={{ opacity: 0.8, scale: 0.9, rotate: 360 }}
               transition={{ duration: 0.5 }}
@@ -225,9 +231,10 @@ const PopularJobSlider = () => {
             <p className="desc hideOnHover">Earn upto 12 - 15 £ per hour</p>
 
             <motion.div
-              className="content-div"
+               className="content-div"
               initial={{ opacity: 0, scale: 0.7, rotate: 180 }}
               whileHover={{ opacity: 1, scale: 1, rotate: 360 }}
+              
               whileFocus={{ opacity: 1, scale: 1, rotate: 360 }}
               whileTap={{ opacity: 0.8, scale: 0.9, rotate: 360 }}
               transition={{ duration: 0.5 }}
@@ -252,9 +259,10 @@ const PopularJobSlider = () => {
             <p className="desc hideOnHover">Earn upto 15 - 20 £ per hour</p>
 
             <motion.div
-              className="content-div"
+               className="content-div"
               initial={{ opacity: 0, scale: 0.7, rotate: 180 }}
               whileHover={{ opacity: 1, scale: 1, rotate: 360 }}
+              
               whileFocus={{ opacity: 1, scale: 1, rotate: 360 }}
               whileTap={{ opacity: 0.8, scale: 0.9, rotate: 360 }}
               transition={{ duration: 0.5 }}
@@ -277,9 +285,10 @@ const PopularJobSlider = () => {
             <p className="head hideOnHover">Bartender</p>
             <p className="desc hideOnHover">Earn upto 20 - 25 £ per hour</p>
             <motion.div
-              className="content-div"
+               className="content-div"
               initial={{ opacity: 0, scale: 0.7, rotate: 180 }}
               whileHover={{ opacity: 1, scale: 1, rotate: 360 }}
+              
               whileFocus={{ opacity: 1, scale: 1, rotate: 360 }}
               whileTap={{ opacity: 0.8, scale: 0.9, rotate: 360 }}
               transition={{ duration: 0.5 }}

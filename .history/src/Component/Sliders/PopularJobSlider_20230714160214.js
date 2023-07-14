@@ -70,6 +70,7 @@ const PopularJobSlider = () => {
               className="content-div"
               initial={{ opacity: 0, scale: 0.7, rotate: 180 }}
               whileHover={{ opacity: 1, scale: 1, rotate: 360 }}
+              
               whileFocus={{ opacity: 1, scale: 1, rotate: 360 }}
               whileTap={{ opacity: 0.8, scale: 0.9, rotate: 360 }}
               transition={{ duration: 0.5 }}
@@ -97,8 +98,6 @@ const PopularJobSlider = () => {
               className="content-div"
               initial={{ opacity: 0, scale: 0.7, rotate: 180 }}
               whileHover={{ opacity: 1, scale: 1, rotate: 360 }}
-              whileFocus={{ opacity: 1, scale: 1, rotate: 360 }}
-              whileTap={{ opacity: 0.8, scale: 0.9, rotate: 360 }}
               transition={{ duration: 0.5 }}
             >
               <p className="head">Head Chef</p>
@@ -122,8 +121,6 @@ const PopularJobSlider = () => {
               className="content-div"
               initial={{ opacity: 0, scale: 0.7, rotate: 180 }}
               whileHover={{ opacity: 1, scale: 1, rotate: 360 }}
-              whileFocus={{ opacity: 1, scale: 1, rotate: 360 }}
-              whileTap={{ opacity: 0.8, scale: 0.9, rotate: 360 }}
               transition={{ duration: 0.5 }}
             >
               <p className="head">Bartender</p>
@@ -149,8 +146,6 @@ const PopularJobSlider = () => {
               className="content-div"
               initial={{ opacity: 0, scale: 0.7, rotate: 180 }}
               whileHover={{ opacity: 1, scale: 1, rotate: 360 }}
-              whileFocus={{ opacity: 1, scale: 1, rotate: 360 }}
-              whileTap={{ opacity: 0.8, scale: 0.9, rotate: 360 }}
               transition={{ duration: 0.5 }}
             >
               <p className="head">Head Chefs</p>
@@ -176,8 +171,6 @@ const PopularJobSlider = () => {
               className="content-div"
               initial={{ opacity: 0, scale: 0.7, rotate: 180 }}
               whileHover={{ opacity: 1, scale: 1, rotate: 360 }}
-              whileFocus={{ opacity: 1, scale: 1, rotate: 360 }}
-              whileTap={{ opacity: 0.8, scale: 0.9, rotate: 360 }}
               transition={{ duration: 0.5 }}
             >
               <p className="head">Head Chef</p>
@@ -201,8 +194,6 @@ const PopularJobSlider = () => {
               className="content-div"
               initial={{ opacity: 0, scale: 0.7, rotate: 180 }}
               whileHover={{ opacity: 1, scale: 1, rotate: 360 }}
-              whileFocus={{ opacity: 1, scale: 1, rotate: 360 }}
-              whileTap={{ opacity: 0.8, scale: 0.9, rotate: 360 }}
               transition={{ duration: 0.5 }}
             >
               <p className="head">Bartender</p>
@@ -228,8 +219,6 @@ const PopularJobSlider = () => {
               className="content-div"
               initial={{ opacity: 0, scale: 0.7, rotate: 180 }}
               whileHover={{ opacity: 1, scale: 1, rotate: 360 }}
-              whileFocus={{ opacity: 1, scale: 1, rotate: 360 }}
-              whileTap={{ opacity: 0.8, scale: 0.9, rotate: 360 }}
               transition={{ duration: 0.5 }}
             >
               <p className="head">Bartender</p>
@@ -255,8 +244,6 @@ const PopularJobSlider = () => {
               className="content-div"
               initial={{ opacity: 0, scale: 0.7, rotate: 180 }}
               whileHover={{ opacity: 1, scale: 1, rotate: 360 }}
-              whileFocus={{ opacity: 1, scale: 1, rotate: 360 }}
-              whileTap={{ opacity: 0.8, scale: 0.9, rotate: 360 }}
               transition={{ duration: 0.5 }}
             >
               <p className="head">Head Chef</p>
@@ -280,8 +267,6 @@ const PopularJobSlider = () => {
               className="content-div"
               initial={{ opacity: 0, scale: 0.7, rotate: 180 }}
               whileHover={{ opacity: 1, scale: 1, rotate: 360 }}
-              whileFocus={{ opacity: 1, scale: 1, rotate: 360 }}
-              whileTap={{ opacity: 0.8, scale: 0.9, rotate: 360 }}
               transition={{ duration: 0.5 }}
             >
               <p className="head">Bartender</p>
